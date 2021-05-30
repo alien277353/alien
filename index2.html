@@ -8,12 +8,12 @@
     <style>
         @keyframes shado{
       0%{background: red}
-      17%{background: orange}
-      34%{background: black}
-      51%{background: green}
-      68%{background: blue}
-      85%{background: indigo}
-      100%{background: aqua}
+      34%{background: orange}
+      68%{background: black}
+      102%{background: green}
+      136%{background: blue}
+      170%{background: indigo}
+      200%{background: aqua}
   }
   a{
       animation: shado 10s infinite;
@@ -33,24 +33,515 @@
   div{
     color: rgb(44, 44, 206);
   }
+  p{
+    transition: 0.1s;
+  }
+  p:hover{
+    font-size: 1.5em;
+  }
+  a{
+    transition: 1s;
+  }
+  a:hover{
+    font-size: 1.5em;
+  }
   </style>
   </head>
   <body>
     <a href="index.html" class="btn btn-primary">На главную</a>
-    <a href="index1.html" class="btn btn-primary">Фото</a>
-    <div class="card mb-3" style="max-width: 540px;">
+    <a href="index1.html" class="btn btn-primary">Фотографии</a>
+    <div class="container">
+    <div class="card mb-3" style="max-width: 1300px;">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="...">
+          <img src="032.jpg" width="400px" height="300px">
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Название карточки</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title">Путешественник Гео</h5>
+            <p class="card-text">Люмин  или Итэр (мужская версия) после посещения Ли Юэ и взаимодействия со статуей Архонта, может изменить базовую Анемо стихию на Гео. Способности Гео версии путешественника могут быть полезны в некоторых активностях, в том числе в разгадывании нескольких загадок.  Предметы для прокачки созвездия персонажа вы можете купить у торговца в Ли Юэ.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/traveler-geo/" class="btn btn-primary">Подробнее</a>
           </div>
         </div>
       </div>
     </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="033.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Путешественник Анемо</h5>
+            <p class="card-text">Итэр или Люмин (женская версия)  — персонаж которым мы начинаем игру и знакомимся с основными ее механиками. Именно Анемо стихия является первой с которой мы сталкиваемся. Как только в вашем отряде появятся более интересные персонажи не задумываясь меняйте главного героя. Материалы для возвышения персонажа вы можете получить при повышении уровня ранга приключений.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/traveler-anemo/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="665.jpg" width="400px" height="500px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Кадзуха</h5>
+            <p class="card-text">Кадзуха — первый игровой персонаж из Иназумы, был анонсирован на специальном стриме версии 1.6. Предположительная дата выхода 9 июня 2021 года. Поскольку данный персонаж является пятизвездочным то советуем вам поднакопить Переплетающиеся судьбы и Камни истока.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/kadzukha/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="0.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Эола</h5>
+            <p class="card-text">Эола — капитан разведывательного отряда Рыцарей Фавония. Эта элегантная девушка с легкостью обращается с тяжелым двуручным мечом. Ее легкие и грациозные движения больше похожи на танец, а ее Крио элементарные навыки заставляют врагов замереть в предвкушении очередного пируэта.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/eola/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="01.jpg" width="400px" height="500px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Янь Фэй</h5>
+            <p class="card-text">Янь Фэй — первый персонаж Пиро элемента использующий катализатор. Эта легкая и беззаботная девушка на самом деле консультант по юридическим вопросам из Ли Юэ. Помимо этого это еще один персонаж в жилах которого течет кровь мифического зверя. Видимо поэтому она с легкостью метает в своих врагов огненные шары и обрушивает на них всю силу Пиро стихии.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/yan-fey/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="02jpg.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Розария</h5>
+            <p class="card-text">Розария — очень загадочная и уверенная в себе девушка. Возможно ее внешний вид и подчеркивает то что она является сестрой церкви Фавония, но ее манеры и взгляд говорят то это лишь одна сторона медали. Ее Крио способности подчеркивают ее хладнокровие, пронизывая врагов ужасающим холодом.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/rosaria/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="03.jpg" width="400px" height="500px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Ху Тао</h5>
+            <p class="card-text">Ху Тао — противоречивая и местами заносчивая хозяйка ритуального бюро. Ее маркетинговая компания многим покажется странной, но несмотря на ее эксцентризм этот персонаж многое знает о мире духов. Ее Элементарный навык позволяет поджечь свое копье пожертвовав частью здоровья. А при использовании Взрыва стихий ей на помощь приходят пылающие духи возмездия.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/hu-tao/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="04.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Сяо</h5>
+            <p class="card-text">Сяо — последний защитник Якса, один из немногих адептов Ли Юэ. Он предпочитает уединенно наслаждаться видами верхнего этажа постоялого двора Вайшу. Несмотря на свое с виду хрупкое телосложение является одним из самых сильных персонажей Геншин Импакт. Надевая свою маску Якса он наполняется геном постепенно теряя здоровье, но увеличивая свой урон.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/xiao/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="05.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Гань Юй</h5>
+            <p class="card-text">Гань Юй — эта симпатичная крио-лучница была добавлена в обновлении 1.2 и сразу поселилась в сердцах миллионов игроков геншин. Но ее милый вид это не главный козырь в ее рукаве, благодаря уникальным способностям данный персонаж может противостоять как обычным группам врагов, так и самым сильным боссам игры.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/ganyu/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="06.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Альбедо</h5>
+            <p class="card-text">Альбедо — главный алхимик Ордо Фавониус, а также очень талантливый художник. Несмотря на свой немного отстраненный вид приятный и веселый персонаж. Благодаря своим Гео навыкам является одним из лучших персонажей поддержки. А благодаря навыкам в алхимии может сэкономить вам материалы при создании предметов для возвышения оружия.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/albedo/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="07.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Чжун Ли</h5>
+            <p class="card-text">Чжун Ли — взрослый и спокойный молодой человек работающий консультантом в Ритуальном Бюро Ваншэн. Он многое знает об Архонтах и Старой войне. Размах его Гео Взрыва стихий поражает воображение и просто стирает с лица земли врагов, а элементарный навык может быть крайне полезен при исследовании. Но если соберетесь по магазинам вместе с Чжун Ли проверьте не забыл ли он Мору, ну так на всякий случай.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/zhongli/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="08.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Синь Янь</h5>
+            <p class="card-text">Если вам нравится рок-н-ролл то вам нравится и Синь Янь. Ее мандолина зажигает, и не в переносном смысле, ведь ее пиро способности призваны зажечь толпу а заодно поджарить нескольких хулиганов. Не удивляйтесь если после очередного аккорда ее окутает щит ведь он наполнен теми эмоциями который вызывают ее зажигательная музыка!</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/xinyan/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="09.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Тарталья</h5>
+            <p class="card-text">Тарталья — первый играбельный персонаж группировки Фатуи, и это уже говорит о многом. Несмотря на свой статус он не так плох как вы могли подумать, и позволяет взглянуть на эту группировку иначе. Его уникальная Гидро способность позволяет ему переключиться с лука на ближний бой. И не удивляйтесь если его будут называть Чайльд — это его титул, а настоящее имя Аякс.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/tartaglia/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="010.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Диона</h5>
+            <p class="card-text">Диона — миленькая девочка с кошачьими ушками и хвостиком всегда угостит вам легким алкогольным напитком в таверне Кошки хвост. Несмотря на то что она ненавидит алкоголь, про ее талант в смешивании коктейлей мало кто не слышал. Но разлитие напитков это не все что она умеет, благодаря своим Кри навыкам она идеально подходит для поддержки группы в трудную минуту.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/diona/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="011.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Кли</h5>
+            <p class="card-text">Кли — просто чудовищно наивная маленькая девочка с большим талантом к пиротехнике. Ее маленькие сокровища могут показаться милыми, но мы бы не советовали с ними играть. Ее бомбочки с легкостью расправляются как с маленькими хиличурлами так и с грозными Магами бездны. И не забудьте что ее пассивная способность позволяет ей видеть диковины Мондштадта на мини-карте.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/klee/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="012.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Венти</h5>
+            <p class="card-text">Венти — этот веселый  вечно жизнерадостный бар не совсем тот кем кажется. Но истинную его личность пожалуй вы узнаете сами. А вот со своим луком этот персонаж управляется не хуже чем с лирой. Его анемо способности не только идеальный для изучения мира, но и просто необходимы для прохождения сложного контента игры.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/venti/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="013.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Эмбер</h5>
+            <p class="card-text">Эмбер — веселая, но местами наивная девушка Эмбер первой присоединяется к команде искателя приключений. Ее Пиро способности не отличаются особым разнообразием но как не странно ее основные плюсы не в этом. Дело в том что она сочетает в себе две крайне полезных для исследования вещи. Лук и Пиро урон, поверьте этот персонаж может вам пройти не одну загадку!</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/amber/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="014.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Чун Юнь</h5>
+            <p class="card-text">Чун Юнь — тихий и приветливый парень но в тоже время сильный экзорцист с врожденным даром или проклятием. Его аура распугивает всех демонов у него на пути, но как не парадоксально еще до того как Чун Юнь успевает с ними сразиться. Его крио способности заставляют врагов дрожать не только от страха.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/chongyun/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="015.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Ци ЦИ</h5>
+            <p class="card-text">Ци-ци немного отличается от остальных играбельных персонажей Геншин Импакт. Дло в том что по неудачным стечением обстоятельств она погибла, и Адепты даровали ей новую жизнь в виде зомби. Несмотря на свое состояние она довольно активно может помогать вам в бою за счет способностей к вампиризму. А во время путешествий ее способность видеть на мини карте диковинки Ли Юэ просто необходима.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/qiqi/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="016.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Фишль</h5>
+            <p class="card-text">Фишль — загадочная и эксцентричная девушка в компании черного ворона обязательно вызовет в вас интерес. Зачастую ее пафосную речь крайне сложно понять, к счастью ее спутник всегда готов не только наносить урон врагам Принцессы Нирваны Ночи, но и объяснить что-же она имела в виду. Уникальной особенностью Электро Глаза бога Фишль является возможность принять форму Оза, и на сокрушительной скорости обрушить град из молний на своих врагов.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/fischl/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="017.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Сян Лин</h5>
+            <p class="card-text">Сян Лин — милая и энергичная девушка на самом деле один из самых знаменитых шеф-поваров Тейвата. Конечно же ее коронными блюдами являются острые закуски, но она и сама может неплохо поддать жару. Благодаря Пиро Глазу бога она способна закружить врагов в огненном вихре. Ее домашний питомец Гоба также не прочь отведать ее восхитительных блюд параллельно извергая сокрушительное  пламя на обидчиков хозяйки.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/xiangling/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="018.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Син Цю</h5>
+            <p class="card-text">Несмотря на тихий и спокойный характер, Син Цю жаждет приключений. Будучи воспитанным в семье главы торговой гильдии Фэй Юнь он отточил не только свой пытливый ум, но и искусство боя Гу Хуа. Его Гидро глаз бога позволяет ему не только поражать свои цели мечами дождя, но и блокировать сокрушительный атаки врагов.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/xingqiu/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="019.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Сахароза</h5>
+            <p class="card-text">Сахароза — одаренный алхимик но в то же время мечтательная и милая симпатичная девушка.  Ее милый, а местами и опасные эксперименты позволят вам расправляться с группами мелких врагов. и не забудьте что она в первую очередь алхимик и ее пассивный навык может сэкономить вам немало ресурсов.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/sucrose/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="020.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Рэйзор</h5>
+            <p class="card-text">Рэйзор — волк одиночка, этот молодой человек не похож на других, но в то же время эта его уникальность позволяет ему лучше чувствовать природу. Его Электро способности незамысловаты, но при правильном использовании позволяют раскидывать и разрывать на части большие группы врагов.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/razor/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="021.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Ноэлль</h5>
+            <p class="card-text">Ноэлль — милая вежливая и почтительная горничная мечтающая стать отважным рыцарем. Лично в нашем списке этот персонаж занимает почетное второе место, не за урон, не за ее поддержку, а именно за то что она такая какая есть. Несмотря на миловидную внешность не стоит ее недооценивать ее сокрушительный взрыв стихий с легкостью справится с таким необычным противником как Гео Гипостазис.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/noelle/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="022.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Нин Гуан</h5>
+            <p class="card-text">Нин Гуан — символ Ли Юэ, сильная и местами загадочная женщина. Ее улыбка заставит растаять любого, а вот врагам она не сулит ничего хорошего. Благодаря сильным Гео способностям Нин Гуан с легкостью расправляется как самыми толстыми боссами игры. На данным момент самый сильный дд персонаж Гео стихии, поэтому не упустите свой шанс и прогуляйтесь по гавани Ли Юэ вместе с ней.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/ningguang/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="023.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Мона</h5>
+            <p class="card-text">Мона Мегистус  —  таинственный астролог без гроша в кармане. Ее внешний вид довольно экстравагантен, но видимо он позволяет ей лучше сливаться со своей Гидро стихией. Анимация ее способностей выше всяких похвал, да и сами способности будут полезны большинству путешественников. И не поскупитесь заказать ей обед ведь астролог это не художник он не должен быть голоден, тем более такая милашка.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/mona/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="024.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Лиза</h5>
+            <p class="card-text">Лиза — обольстительная дама также присоединяется к путешественнику в рамках сюжета. В своем арсенале она имеет пару весомых аргументов, а ее голос заслуживает особого упоминания. но к сожалению из-за не самых удобных способностей в бою она не так сильна как хотелось бы. Но если вы не вернете книгу в библиотеку то в полной мере ощутите на себе всю силу Электро стихии.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/lisa/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="025.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Кэйа</h5>
+            <p class="card-text">Кэйа — капитан Ордо Фавониус один из базовых персонажей Геншин Импакт который присоединяется к вашей группе в течении прохождения сюжета. Несмотря на не самые сильные боевые способности может быть крайне полезен в путешествии. Его Элементальный навык позволит вам добраться до таких мест о которых другие Крио персонажи могут только мечтать.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/kaeya/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="026.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Кэ Цин</h5>
+            <p class="card-text">Нрав и взгляды Кэ Цин многим могут не понравится. Но она парирует их аргументы с той же легкостью как расправится со Стражем руин. Этот персонаж хорош как в нанесении физического так и электро урона. А ее потрясающий в плане красоты Взрыв стихии не оставит никого равнодушным. Если в вашем отряде не хватает немного электричества то она та кто вам нужен.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/keqing/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="027.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Дилюк</h5>
+            <p class="card-text">Дилюк — тихий, рассудительный, холостяк один из самых богатых людей в Монштадте. Никого вам не напоминает? Возможно он и не прыгает по крышам ночью, но этого героя мы точно заслужили. Его пламенный меч сметет с дороги любого врага. Возможно немногие знают сколько полезного принес этому городу Дилюк оставаясь в тени, но мы с вами знаем и ему всегда найдется место в нашем отряде.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/diluc/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="028.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Джинн</h5>
+            <p class="card-text">Многие могли бы подумать что командиру Ордо Фовониус сложно совмещать свои рабочие обязанности и путешествия, и да это так. Но Джин это символ всего Монштата, она поклялась охранять город и не важно кто у ворот хоть небольшой Хиличурл, хоть грозный Ужас бури ее меч всегда будет на вашей стороне, а ее Анемо способности вдохновят вас на новые свершения. А еще как сказал один орк, это Джайна на максималках.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/jean/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="029.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Бэй Доу</h5>
+            <p class="card-text">Бэй Доу — капитан вооруженного корабля, сильная и независимая, с искрой в глазах, другой такой героини вы точно не найдете. Бей Доу умело управляется как со штурвалом своего корабля так и с двуручным мечом, а ее Электро способности позволяют как блокировать удары врагов так и пронзать их тела сильными а иногда и цепными зарядами молнии.</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/beidou/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="030.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Беннет</h5>
+            <p class="card-text">Беннет — незадачливый паренек именно такой каким кажется. Да это Беннет, очень невезучий, но веселый и неунывающий персонаж. Его Пиро отлично подходят для поддержки отряда, а взрывной характер точно привнесет в вашу группу немного хаоса и неразберихи, разве это плохо?</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/bennett/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="031.jpg" width="400px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Барбара</h5>
+            <p class="card-text">Барбара — та звездочка Монштадта прекрасно дополнит вашу группу и с легкостью залечит раны вашего мейн дд. Но благодаря ее Гидро глазу бога она может не только восстановить ваше здоровье, но и облить водой особо разгорячившихся хиличурлов. Кстати у Барбары есть свой фан-клуб, возможно они немного перегибают палку, но не это ли истинное признание и любовь?</p>
+            <a href="https://genshin-info.ru/wiki/personazhi/barbara/" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <a href="index.html" class="btn btn-primary">На главную</a>
     <a href="index1.html" class="btn btn-primary">Фото</a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
